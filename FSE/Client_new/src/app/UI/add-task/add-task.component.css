@@ -1,0 +1,59 @@
+.form-group.required .control-label:after {
+    content: "*";
+    color: red;
+}
+
+.panel-default > .panel-heading-custom {
+    background: rgb(28, 28, 32);
+     color: #fff; }
+
+
+.panel.panel-default {
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top:50px;
+    width:85%;
+    height:50%;
+}
+
+#search_btn1{
+    background-color: rgb(41, 33, 33);
+    color: white;
+}
+
+#search_btn2{
+    background-color: rgb(41, 33, 33);
+    color: white;
+}
+
+#search_btn3{
+    background-color: rgb(41, 33, 33);
+    color: white;
+}
+
+#add_btn{
+    background-color: rgb(41, 33, 33);
+    color: white;
+}
+
+#reset_btn{
+    background-color: rgb(41, 33, 33);
+    color: white;
+}
+
+
+
+.checkbox {
+    padding-top: 0;
+    min-height: auto;
+}
+
+.checkbox label {
+    padding-left: 30px;
+}
+
+.checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 -30px;
+}

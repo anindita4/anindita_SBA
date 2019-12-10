@@ -1,0 +1,27 @@
+.panel-default > .panel-heading-custom {
+    background: rgb(28, 28, 32);
+     color: #fff; }
+
+
+.panel.panel-default {
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top:50px;
+    width:85%;
+    height:50%;
+}
+#search_btn{
+    background-color: rgb(41, 33, 33);
+    color: white;
+}
+
+#edit_btn{
+    background-color: rgb(41, 33, 33);
+    color: white;
+}
+
+
+#endTask_btn {
+    background-color: rgb(41, 33, 33);
+    color: white;
+}

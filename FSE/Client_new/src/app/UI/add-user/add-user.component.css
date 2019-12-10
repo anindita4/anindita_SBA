@@ -1,0 +1,60 @@
+.form-group.required .control-label:after {
+    content: "*";
+    color: red;
+}
+
+.panel-default > .panel-heading-custom {
+    background: rgb(28, 28, 32);
+     color: #fff; }
+
+
+.panel.panel-default {
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top:50px;
+    width:85%;
+    height:50%;
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+ul.list-group {
+    width: 80%;
+    display: inline-block;
+}
+
+div.view-buttons {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.flex-container div.view-buttons .btn-default {
+    margin-bottom: 10px;
+    display: block;
+   
+}
+
+#add_btn {
+    background-color: rgb(41, 33, 33);
+    color: white;
+}
+
+#reset_btn {
+    background-color: rgb(41, 33, 33);
+    color: white;
+}
+
+#edit_btn {
+    background-color: rgb(41, 33, 33);
+    color: white;
+}
+
+
+#del_btn {
+    background-color: rgb(41, 33, 33);
+    color: white;
+}
+
