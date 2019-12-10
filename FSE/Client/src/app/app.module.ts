@@ -11,6 +11,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { UserService } from './services/user.service';
 
+//import { Response } from '@angular/http';
+
 import { ToastrModule } from 'ngx-toastr';
 import { EventService } from './services/event.service';
 import { BaseService } from './services/base.service';
@@ -29,7 +31,7 @@ import { PageNotFoundComponent } from '../app/UI/page-not-found/page-not-found.c
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/app-component',
+    redirectTo: 'app-component',
     pathMatch: 'full'
   },
   { path: 'app-component', component: AppComponent },
@@ -45,9 +47,12 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-   
     FilteruserPipe,
-   
+    AddUserComponent,
+    AddTaskComponent,
+    AddProjectComponent,
+    ViewTaskComponent,
+    PageNotFoundComponent
     // routingComponents
   ],
   imports: [
@@ -65,6 +70,7 @@ const routes: Routes = [
       preventDuplicates: true
     }),
     Ng5SliderModule
+    //,Response
   ],
   providers: [BaseService,UserService, EventService, ProjectService,TaskService],
   bootstrap: [AppComponent]

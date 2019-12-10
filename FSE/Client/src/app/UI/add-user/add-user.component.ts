@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { UserService } from '../../SERVICES/user.service';
+import { UserService } from '../../services/user.service';
 import { User } from '../../MODELS/user';
-import { EventService } from '../../SERVICES/event.service';
+import { EventService } from '../../services/event.service';
 
 @Component({
   selector: 'app-add-user',

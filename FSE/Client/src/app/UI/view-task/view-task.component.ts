@@ -17,13 +17,13 @@ import { Component, OnInit, TemplateRef } from '@angular/core';
 import { Router } from '@angular/router';
 import { Task } from '../../MODELS/task';
 
-import { EventService } from '../../SERVICES/event.service';
+import { EventService } from '../../services/event.service';
 
 import { BsModalService } from 'ngx-bootstrap/modal';
 import { BsModalRef } from 'ngx-bootstrap/modal/bs-modal-ref.service';
-import { ProjectService } from '../../SERVICES/project.service';
+import { ProjectService } from '../../services/project.service';
 import { Project } from '../../MODELS/project';
-import { TaskService } from '../../SERVICES/task.service';
+import { TaskService } from '../../services/task.service';
 
 @Component({
   selector: 'app-view-task',

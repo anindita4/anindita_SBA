@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
 import { Task } from '../models/task';
 import { map, catchError } from 'rxjs/operators';
 import { BaseService } from './base.service';
-import { ParentTask } from '../models/parentTask';
+import { ParentTask } from '../models/ParentTask';
 
 @Injectable()
 export class TaskService extends BaseService {

@@ -24,7 +24,7 @@ import { PageNotFoundComponent } from '../app/UI/page-not-found/page-not-found.c
 const routes: Routes = [
 {
   path: '',
-  redirectTo: '/app-component',
+  redirectTo: 'app-component',
   pathMatch: 'full'
 },
 { path: 'app-component', component: AppComponent },

@@ -4,9 +4,9 @@ import * as moment from 'moment';
 import { BsModalService } from 'ngx-bootstrap/modal';
 import { BsModalRef } from 'ngx-bootstrap/modal/bs-modal-ref.service';
 import { User } from '../../MODELS/user';
-import { EventService } from '../../SERVICES/event.service';
-import { ProjectService } from '../../SERVICES/project.service';
-import { UserService } from '../../SERVICES/user.service';
+import { EventService } from '../../services/event.service';
+import { ProjectService } from '../../services/project.service';
+import { UserService } from '../../services/user.service';
 
 @Component({
   selector: 'app-add-project',

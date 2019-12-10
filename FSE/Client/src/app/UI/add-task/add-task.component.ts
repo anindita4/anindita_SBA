@@ -16,16 +16,16 @@
 
 import { Component, OnInit, TemplateRef } from '@angular/core';
 import { Task } from '../../MODELS/task';
-import { EventService } from '../../SERVICES/event.service';
+import { EventService } from '../../services/event.service';
 import { ActivatedRoute } from '@angular/router';
 
 import { BsModalService } from 'ngx-bootstrap/modal';
 import { BsModalRef } from 'ngx-bootstrap/modal/bs-modal-ref.service';
-import { ProjectService } from '../../SERVICES/project.service';
-import { UserService } from '../../SERVICES/user.service';
+import { ProjectService } from '../../services/project.service';
+import { UserService } from '../../services/user.service';
 import { Project } from '../../MODELS/project';
 import { User } from '../../MODELS/user';
-import { TaskService } from '../../SERVICES/task.service';
+import { TaskService } from '../../services/task.service';
 import { ParentTask } from '../../MODELS/parentTask';
 
 import * as moment from 'moment';
